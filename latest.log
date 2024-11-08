@@ -1,0 +1,174 @@
+[00:18:50] [main/INFO]: ModLauncher running: args [--username, Khalassur, --version, 21.1.74, --gameDir, C:\Users\adelm\AppData\Roaming\.minecraft\aether2, --assetsDir, C:\Users\adelm\AppData\Roaming\.minecraft\assets, --assetIndex, 17, --uuid, 5762f046ecd749399b8f8e4f4e6c7346, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, ZjA3NzA3NzYtODI0MC00ODM2LWE2NTgtMDA5NDYxYWFiMGI1, --xuid, 2535454803688767, --userType, msa, --versionType, release, --fml.neoForgeVersion, 21.1.74, --fml.fmlVersion, 4.0.31, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]
+[00:18:50] [main/INFO]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.3+9-LTS
+[00:18:50] [main/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.3 by Microsoft; OS Windows 10 arch amd64 version 10.0
+[00:18:50] [main/WARN]: Configuration file C:\Users\adelm\AppData\Roaming\.minecraft\aether2\config\fml.toml is not correct. Correcting
+[00:18:50] [main/INFO]: Incorrect key [disableConfigWatcher] was corrected from null to false
+[00:18:50] [main/INFO]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[00:18:50] [main/INFO]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[00:18:50] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[00:18:50] [main/INFO]: Trying GL version 4.6
+[00:18:50] [main/INFO]: Requested GL version 4.6 got version 4.6
+[00:18:50] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/adelm/AppData/Roaming/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23114!/ Service=ModLauncher Env=CLIENT
+[00:18:51] [pool-2-thread-1/INFO]: GL info: NVIDIA GeForce RTX 3060/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.03, NVIDIA Corporation
+[00:18:51] [main/INFO]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.74:client]
+[00:18:51] [main/INFO]: Found mod file "neoforge-21.1.74-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[C:\Users\adelm\AppData\Roaming\.minecraft\libraries\net\neoforged\neoforge\21.1.74\neoforge-21.1.74-universal.jar]], reader: mod manifest]
+[00:18:51] [main/INFO]: Found mod file "aether_ii-1.21-0.0.1-neoforge.jar" [locator: {mods folder locator at C:\Users\adelm\AppData\Roaming\.minecraft\aether2\mods}, reader: mod manifest]
+[00:18:51] [main/INFO]: Found mod file "Cloth Config API.jar" [locator: {mods folder locator at C:\Users\adelm\AppData\Roaming\.minecraft\aether2\mods}, reader: mod manifest]
+[00:18:51] [main/INFO]: Found 9 dependencies adding them to mods collection
+[00:18:51] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.74-universal.jar, locator: jarinjar, reader: mod manifest]
+[00:18:51] [main/INFO]: Found mod file "nitrogen_internals-1.21-1.1.10-neoforge.jar" [parent: aether_ii-1.21-0.0.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[00:18:51] [main/INFO]: Found library file "gson-0.1.5.jar" [parent: accessories-neoforge-1.0.0-beta.35+1.21.jar, locator: jarinjar]
+[00:18:51] [main/INFO]: Found mod file "fabric-api-base-0.4.42+d1308dedd1.jar" [parent: accessories-neoforge-1.0.0-beta.35+1.21.jar, locator: jarinjar, reader: mod manifest]
+[00:18:51] [main/INFO]: Found mod file "accessories-neoforge-1.0.0-beta.35+1.21.jar" [parent: aether_ii-1.21-0.0.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[00:18:51] [main/INFO]: Found mod file "cumulus_menus-1.21-1.0.3-neoforge.jar" [parent: aether_ii-1.21-0.0.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[00:18:51] [main/INFO]: Found library file "endec-0.1.8.jar" [parent: accessories-neoforge-1.0.0-beta.35+1.21.jar, locator: jarinjar]
+[00:18:51] [main/INFO]: Found library file "netty-0.1.4.jar" [parent: accessories-neoforge-1.0.0-beta.35+1.21.jar, locator: jarinjar]
+[00:18:51] [main/INFO]: Found library file "neoforge-coremods-21.1.74.jar" [parent: neoforge-21.1.74-universal.jar, locator: jarinjar, reader: mod manifest]
+[00:18:51] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Accessories 1.0.0-beta.35+1.21 (accessories)
+		Cloth Config v15 API 15.0.140 (cloth_config)
+		Cumulus 1.0.3 (cumulus_menus)
+		Forgified Fabric API Base 0.4.42+d1308dedd1 (fabric_api_base)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.74 (neoforge)
+		Nitrogen 1.1.10 (nitrogen_internals)
+		The Aether II 0.0.1 (aether_ii)
+[00:18:52] [main/INFO]: Compatibility level set to JAVA_17
+[00:18:52] [main/INFO]: Launching target 'forgeclient' with arguments [--version, 21.1.74, --gameDir, C:\Users\adelm\AppData\Roaming\.minecraft\aether2, --assetsDir, C:\Users\adelm\AppData\Roaming\.minecraft\assets, --uuid, 5762f046ecd749399b8f8e4f4e6c7346, --username, Khalassur, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, ZjA3NzA3NzYtODI0MC00ODM2LWE2NTgtMDA5NDYxYWFiMGI1, --xuid, 2535454803688767, --userType, msa, --versionType, release]
+[00:18:52] [main/WARN]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:18:52] [main/WARN]: Reference map 'cumulus_menus.refmap.json' for cumulus_menus.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:18:52] [main/WARN]: Reference map 'aether_ii.refmap.json' for aether_ii.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:18:53] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[08nov.2024 00:18:54.096] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zzj000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[08nov.2024 00:18:55.638] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 564 milliseconds
+[08nov.2024 00:19:02.323] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/adelm/AppData/Roaming/.minecraft/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23182!/assets/.mcassetsroot' uses unexpected schema
+[08nov.2024 00:19:02.324] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/adelm/AppData/Roaming/.minecraft/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23182!/data/.mcassetsroot' uses unexpected schema
+[08nov.2024 00:19:02.356] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08nov.2024 00:19:02.369] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Khalassur
+[08nov.2024 00:19:02.505] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[08nov.2024 00:19:02.864] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.74, for MC 1.21.1
+[08nov.2024 00:19:05.629] [Render thread/ERROR] [net.neoforged.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: An unexpected critical error was encountered
+	Index: 0
+	Listeners:
+		0: com.aetherteam.aetherii.client.AetherIIClient$$Lambda/0x0000000800402438@4f870534
+org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.entity.EntityRenderers.<clinit>(EntityRenderers.java:32)
+	at TRANSFORMER/neoforge@21.1.74/net.neoforged.neoforge.client.event.EntityRenderersEvent$RegisterRenderers.registerEntityRenderer(EntityRenderersEvent.java:100)
+	at TRANSFORMER/aether_ii@0.0.1/com.aetherteam.aetherii.client.renderer.AetherIIRenderers.registerEntityRenderers(AetherIIRenderers.java:60)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:26)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:329)
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177)
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.ModLoader.lambda$postEvent$13(ModLoader.java:358)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174)
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.ModLoader.postEvent(ModLoader.java:358)
+	at TRANSFORMER/neoforge@21.1.74/net.neoforged.neoforge.client.ClientHooks.initClientHooks(ClientHooks.java:1027)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:601)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136)
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124)
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32)
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210)
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69)
+Caused by: org.spongepowered.asm.mixin.injection.throwables.InjectionError: Critical injection failure: Argument modifier method getOrDefaultColor(ILnet/minecraft/world/item/ItemStack;)I in aether_ii.mixins.json:client.HumanoidArmorLayerMixin from mod aether_ii failed injection check, (0/1) succeeded. Scanned 0 target(s). No refMap loaded.
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.postInject(InjectionInfo.java:531)
+	at TRANSFORMER/mixinextras.neoforge@0.4.1/com.llamalad7.mixinextras.wrapper.InjectorWrapperImpl.doPostInject(InjectorWrapperImpl.java:83)
+	at TRANSFORMER/mixinextras.neoforge@0.4.1/com.llamalad7.mixinextras.sugar.impl.SugarWrapperImpl.doPostInject(SugarWrapperImpl.java:88)
+	at TRANSFORMER/mixinextras.neoforge@0.4.1/com.llamalad7.mixinextras.wrapper.WrapperInjectionInfo.postInject(WrapperInjectionInfo.java:84)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1490)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:752)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:330)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+	... 42 more
+
+[08nov.2024 00:19:05.632] [Render thread/ERROR] [net.neoforged.fml.ModContainer/LOADING]: Caught exception during event net.neoforged.neoforge.client.event.EntityRenderersEvent$RegisterRenderers@4cf5d999 dispatch for modid aether_ii
+org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-11.0.4.jar:11.0.4+main.d2e20e43]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94) ~[modlauncher-11.0.4.jar:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-11.0.4.jar:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57) ~[modlauncher-11.0.4.jar:?]
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190) ~[securejarhandler-3.0.8.jar:?]
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?]
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311) ~[securejarhandler-3.0.8.jar:?]
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?]
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214) ~[securejarhandler-3.0.8.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.entity.EntityRenderers.<clinit>(EntityRenderers.java:32) ~[client-1.21.1-20240808.144430-srg.jar%23182!/:?]
+	at TRANSFORMER/neoforge@21.1.74/net.neoforged.neoforge.client.event.EntityRenderersEvent$RegisterRenderers.registerEntityRenderer(EntityRenderersEvent.java:100) ~[neoforge-21.1.74-universal.jar%23183!/:?]
+	at TRANSFORMER/aether_ii@0.0.1/com.aetherteam.aetherii.client.renderer.AetherIIRenderers.registerEntityRenderers(AetherIIRenderers.java:60) ~[aether_ii-1.21-0.0.1-neoforge.jar%23184!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:26) ~[bus-8.0.2.jar%23119!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350) ~[bus-8.0.2.jar%23119!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:329) ~[bus-8.0.2.jar%23119!/:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-4.0.31.jar%23112!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.ModLoader.lambda$postEvent$13(ModLoader.java:358) ~[loader-4.0.31.jar%23112!/:4.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.31.jar%23112!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.ModLoader.postEvent(ModLoader.java:358) ~[loader-4.0.31.jar%23112!/:4.0]
+	at TRANSFORMER/neoforge@21.1.74/net.neoforged.neoforge.client.ClientHooks.initClientHooks(ClientHooks.java:1027) ~[neoforge-21.1.74-universal.jar%23183!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:601) ~[client-1.21.1-20240808.144430-srg.jar%23182!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[client-1.21.1-20240808.144430-srg.jar%23182!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.31.jar%23112!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.31.jar%23112!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.31.jar%23112!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.31/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.31.jar%23112!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23125!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23125!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23125!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23125!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23125!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23125!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23125!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+Caused by: org.spongepowered.asm.mixin.injection.throwables.InjectionError: Critical injection failure: Argument modifier method getOrDefaultColor(ILnet/minecraft/world/item/ItemStack;)I in aether_ii.mixins.json:client.HumanoidArmorLayerMixin from mod aether_ii failed injection check, (0/1) succeeded. Scanned 0 target(s). No refMap loaded.
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.postInject(InjectionInfo.java:531) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar%23114!/:0.15.2+mixin.0.8.7]
+	at TRANSFORMER/mixinextras.neoforge@0.4.1/com.llamalad7.mixinextras.wrapper.InjectorWrapperImpl.doPostInject(InjectorWrapperImpl.java:83) ~[mixinextras-neoforge-0.4.1.jar%23203!/:?]
+	at TRANSFORMER/mixinextras.neoforge@0.4.1/com.llamalad7.mixinextras.sugar.impl.SugarWrapperImpl.doPostInject(SugarWrapperImpl.java:88) ~[mixinextras-neoforge-0.4.1.jar%23203!/:?]
+	at TRANSFORMER/mixinextras.neoforge@0.4.1/com.llamalad7.mixinextras.wrapper.WrapperInjectionInfo.postInject(WrapperInjectionInfo.java:84) ~[mixinextras-neoforge-0.4.1.jar%23203!/:?]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1490) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:752) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:330) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	... 42 more
+[08nov.2024 00:19:05.883] [Render thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID fd01dbc1-19d6-4df2-ad26-9ce6c8f8078d
+[08nov.2024 00:19:05.890] [Render thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 3d6913f7-c975-49eb-8d7c-933aed2d2dc3
